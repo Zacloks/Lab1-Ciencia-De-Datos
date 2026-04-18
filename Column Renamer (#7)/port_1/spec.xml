@@ -1062,7 +1062,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_21">
-        <entry key="column_name" type="xstring" value="monto_liquido"/>
+        <entry key="column_name" type="xstring" value="a10"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -1508,7 +1508,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_26">
-        <entry key="column_name" type="xstring" value="b1"/>
+        <entry key="column_name" type="xstring" value="motivacion_iniciar"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -1614,7 +1614,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_27">
-        <entry key="column_name" type="xstring" value="b1_otro"/>
+        <entry key="column_name" type="xstring" value="motivacion_otra"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -2678,7 +2678,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_48">
-        <entry key="column_name" type="xstring" value="c1_caenes_1d_red"/>
+        <entry key="column_name" type="xstring" value="sector_economico"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -3288,7 +3288,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_58">
-        <entry key="column_name" type="xstring" value="c6_3"/>
+        <entry key="column_name" type="xstring" value="horas_semanales_negocio"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -19914,7 +19914,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_321">
-        <entry key="column_name" type="xstring" value="e1"/>
+        <entry key="column_name" type="xstring" value="Uso De Internet"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -38275,7 +38275,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_644">
-        <entry key="column_name" type="xstring" value="cine_eme_red"/>
+        <entry key="column_name" type="xstring" value="nivel_educacional"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
