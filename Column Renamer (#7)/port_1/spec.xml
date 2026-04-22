@@ -1508,7 +1508,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_26">
-        <entry key="column_name" type="xstring" value="motivacion_iniciar"/>
+        <entry key="column_name" type="xstring" value="motivacion_emprender"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -1614,7 +1614,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_27">
-        <entry key="column_name" type="xstring" value="motivacion_otra"/>
+        <entry key="column_name" type="xstring" value="b1_otro"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -19914,7 +19914,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_321">
-        <entry key="column_name" type="xstring" value="Uso De Internet"/>
+        <entry key="column_name" type="xstring" value="uso_internet"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -38912,7 +38912,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_657">
-        <entry key="column_name" type="xstring" value="lugar_trabajo_agg"/>
+        <entry key="column_name" type="xstring" value="lugar_trabajo_agrupado"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>

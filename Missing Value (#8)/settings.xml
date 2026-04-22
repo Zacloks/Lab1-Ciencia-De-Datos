@@ -9,8 +9,13 @@
         <config key="columnSettings">
             <config key="0">
                 <config key="colNames">
-                    <entry key="array-size" type="xint" value="1"/>
-                    <entry key="0" type="xstring" value="n_trabajadores"/>
+                    <entry key="array-size" type="xint" value="6"/>
+                    <entry key="0" type="xstring" value="region"/>
+                    <entry key="1" type="xstring" value="sexo"/>
+                    <entry key="2" type="xstring" value="tramo_etario"/>
+                    <entry key="3" type="xstring" value="proveedor"/>
+                    <entry key="4" type="xstring" value="nivel_educacional"/>
+                    <entry key="5" type="xstring" value="n_trabajadores"/>
                 </config>
                 <config key="settings">
                     <entry key="factoryID" type="xstring" value="org.knime.base.node.preproc.pmml.missingval.handlers.FixedIntegerValueMissingCellHandlerFactory"/>
@@ -22,12 +27,19 @@
             </config>
             <config key="1">
                 <config key="colNames">
-                    <entry key="array-size" type="xint" value="2"/>
-                    <entry key="0" type="xstring" value="informalidad"/>
-                    <entry key="1" type="xstring" value="sexo"/>
+                    <entry key="array-size" type="xint" value="9"/>
+                    <entry key="0" type="xstring" value="sexo"/>
+                    <entry key="1" type="xstring" value="region"/>
+                    <entry key="2" type="xstring" value="nivel_educacional"/>
+                    <entry key="3" type="xstring" value="informalidad"/>
+                    <entry key="4" type="xstring" value="motivacion_emprender"/>
+                    <entry key="5" type="xstring" value="lugar_trabajo"/>
+                    <entry key="6" type="xstring" value="uso_internet"/>
+                    <entry key="7" type="xstring" value="tramo_etario"/>
+                    <entry key="8" type="xstring" value="proveedor"/>
                 </config>
                 <config key="settings">
-                    <entry key="factoryID" type="xstring" value="org.knime.base.node.preproc.pmml.missingval.handlers.DoNothingMissingCellHandlerFactory"/>
+                    <entry key="factoryID" type="xstring" value="org.knime.base.node.preproc.pmml.missingval.handlers.MostFrequentValueMissingCellHandlerFactory"/>
                     <config key="settings">
                         <entry key="@class" type="xstring" isnull="true" value=""/>
                     </config>
@@ -35,14 +47,20 @@
             </config>
             <config key="2">
                 <config key="colNames">
-                    <entry key="array-size" type="xint" value="2"/>
-                    <entry key="0" type="xstring" value="ganancia_final"/>
-                    <entry key="1" type="xstring" value="c6_3"/>
+                    <entry key="array-size" type="xint" value="7"/>
+                    <entry key="0" type="xstring" value="horas_semanales_negocio"/>
+                    <entry key="1" type="xstring" value="gasto_mensual"/>
+                    <entry key="2" type="xstring" value="ganancia_final"/>
+                    <entry key="3" type="xstring" value="total_trabajadores"/>
+                    <entry key="4" type="xstring" value="sueldos"/>
+                    <entry key="5" type="xstring" value="horas"/>
+                    <entry key="6" type="xstring" value="sector_economico"/>
                 </config>
                 <config key="settings">
-                    <entry key="factoryID" type="xstring" value="org.knime.base.node.preproc.pmml.missingval.handlers.DoNothingMissingCellHandlerFactory"/>
+                    <entry key="factoryID" type="xstring" value="org.knime.base.node.preproc.pmml.missingval.handlers.FixedDoubleValueMissingCellHandlerFactory"/>
                     <config key="settings">
-                        <entry key="@class" type="xstring" isnull="true" value=""/>
+                        <entry key="@class" type="xstring" value="org.knime.base.node.preproc.pmml.missingval.handlers.FixedDoubleValueParameters"/>
+                        <entry key="fixDoubleValue" type="xdouble" value="0.0"/>
                     </config>
                 </config>
             </config>
@@ -54,13 +72,13 @@
                     <entry key="@class" type="xstring" isnull="true" value=""/>
                 </config>
             </config>
-            <config key="org.knime.core.data.def.DoubleCell">
+            <config key="org.knime.core.data.def.StringCell">
                 <entry key="factoryID" type="xstring" value="org.knime.base.node.preproc.pmml.missingval.handlers.DoNothingMissingCellHandlerFactory"/>
                 <config key="settings">
                     <entry key="@class" type="xstring" isnull="true" value=""/>
                 </config>
             </config>
-            <config key="org.knime.core.data.def.StringCell">
+            <config key="org.knime.core.data.def.DoubleCell">
                 <entry key="factoryID" type="xstring" value="org.knime.base.node.preproc.pmml.missingval.handlers.DoNothingMissingCellHandlerFactory"/>
                 <config key="settings">
                     <entry key="@class" type="xstring" isnull="true" value=""/>
@@ -90,7 +108,7 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 7170, Cols: 20"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 7170, Cols: 18"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
         <config key="port_2">
@@ -105,6 +123,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="69efc62d-1c91-408a-9ba9-79981922f3c1"/>
+        <entry key="file_store_id" type="xstring" value="9143d312-6e03-484b-8998-c0b8bce7f122"/>
     </config>
 </config>
