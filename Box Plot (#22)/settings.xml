@@ -116,15 +116,10 @@
                 <entry key="type" type="xstring" value="table"/>
                 <entry key="table_dir_location" type="xstring" value="object_4"/>
             </config>
-            <config key="object_5">
-                <entry key="index" type="xint" value="5"/>
-                <entry key="type" type="xstring" value="table"/>
-                <entry key="table_dir_location" type="xstring" value="object_5"/>
-            </config>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="a315a193-8693-48c3-b67f-ab4838ad7339"/>
+        <entry key="file_store_id" type="xstring" value="0a877236-3387-4008-a6e8-610a6f2e25c4"/>
     </config>
 </config>

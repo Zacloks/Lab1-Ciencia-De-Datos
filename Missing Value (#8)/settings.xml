@@ -27,7 +27,7 @@
             </config>
             <config key="1">
                 <config key="colNames">
-                    <entry key="array-size" type="xint" value="9"/>
+                    <entry key="array-size" type="xint" value="10"/>
                     <entry key="0" type="xstring" value="sexo"/>
                     <entry key="1" type="xstring" value="region"/>
                     <entry key="2" type="xstring" value="nivel_educacional"/>
@@ -37,6 +37,7 @@
                     <entry key="6" type="xstring" value="uso_internet"/>
                     <entry key="7" type="xstring" value="tramo_etario"/>
                     <entry key="8" type="xstring" value="proveedor"/>
+                    <entry key="9" type="xstring" value="sector_economico"/>
                 </config>
                 <config key="settings">
                     <entry key="factoryID" type="xstring" value="org.knime.base.node.preproc.pmml.missingval.handlers.MostFrequentValueMissingCellHandlerFactory"/>
@@ -47,14 +48,13 @@
             </config>
             <config key="2">
                 <config key="colNames">
-                    <entry key="array-size" type="xint" value="7"/>
+                    <entry key="array-size" type="xint" value="6"/>
                     <entry key="0" type="xstring" value="horas_semanales_negocio"/>
                     <entry key="1" type="xstring" value="gasto_mensual"/>
                     <entry key="2" type="xstring" value="ganancia_final"/>
                     <entry key="3" type="xstring" value="total_trabajadores"/>
                     <entry key="4" type="xstring" value="sueldos"/>
                     <entry key="5" type="xstring" value="horas"/>
-                    <entry key="6" type="xstring" value="sector_economico"/>
                 </config>
                 <config key="settings">
                     <entry key="factoryID" type="xstring" value="org.knime.base.node.preproc.pmml.missingval.handlers.FixedDoubleValueMissingCellHandlerFactory"/>
@@ -123,6 +123,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="9143d312-6e03-484b-8998-c0b8bce7f122"/>
+        <entry key="file_store_id" type="xstring" value="5ec21980-2cf2-4c53-bdbd-dd8df7fed993"/>
     </config>
 </config>
