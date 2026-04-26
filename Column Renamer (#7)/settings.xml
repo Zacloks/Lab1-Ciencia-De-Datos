@@ -32,7 +32,7 @@
                 <entry key="newName" type="xstring" value="horas_semanales_negocio"/>
             </config>
             <config key="6">
-                <entry key="oldName" type="xstring" value="e1"/>
+                <entry key="oldName" type="xstring" value="i1"/>
                 <entry key="newName" type="xstring" value="uso_internet"/>
             </config>
         </config>
@@ -66,6 +66,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="b91c301f-7de1-409a-a74c-1804ae3c7e76"/>
+        <entry key="file_store_id" type="xstring" value="2c059178-ee2f-4625-80c4-4c3a3e7c9f18"/>
     </config>
 </config>

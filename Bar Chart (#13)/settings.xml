@@ -42,8 +42,8 @@
         <entry key="title" type="xstring" value="Distribución por tramo etario"/>
         <entry key="customCategoryAxisLabelV2" type="xstring" value="Edad"/>
         <entry key="customCategoryAxisLabelV2_is_present" type="xboolean" value="true"/>
-        <entry key="customFrequencyAxisLabelV2" type="xstring" value="Cantidad Respuestas"/>
-        <entry key="customFrequencyAxisLabelV2_is_present" type="xboolean" value="true"/>
+        <entry key="customFrequencyAxisLabelV2" type="xstring" isnull="true" value=""/>
+        <entry key="customFrequencyAxisLabelV2_is_present" type="xboolean" value="false"/>
         <entry key="axisExtentMethod" type="xstring" value="AUTO"/>
         <config key="manualAxisLimits">
             <entry key="min" type="xdouble" value="0.0"/>
@@ -143,6 +143,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="6697f34e-3cc7-493a-80f7-b93049499f68"/>
+        <entry key="file_store_id" type="xstring" value="d5ba13ec-0e5e-4da5-8e8f-ec4497eac700"/>
     </config>
 </config>

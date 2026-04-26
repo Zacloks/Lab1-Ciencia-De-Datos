@@ -34,10 +34,42 @@
             </config>
         </config>
         <config key="column_properties"/>
+        <config key="color_handler">
+            <entry key="color_model_class" type="xstring" value="org.knime.core.data.property.ColorModelNominal"/>
+            <config key="color_model">
+                <config key="keys">
+                    <config key="0">
+                        <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                        <config key="org.knime.core.data.def.StringCell">
+                            <entry key="StringCell" type="xstring" value="0"/>
+                        </config>
+                    </config>
+                    <config key="1">
+                        <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                        <config key="org.knime.core.data.def.StringCell">
+                            <entry key="StringCell" type="xstring" value="1"/>
+                        </config>
+                    </config>
+                    <config key="NA">
+                        <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                        <config key="org.knime.core.data.def.StringCell">
+                            <entry key="StringCell" type="xstring" value="NA"/>
+                        </config>
+                    </config>
+                </config>
+                <entry key="0" type="xint" value="-14714700"/>
+                <entry key="1" type="xint" value="-1893860"/>
+                <entry key="NA" type="xint" value="-5154520"/>
+                <config key="palette">
+                    <entry key="array-size" type="xint" value="1"/>
+                    <entry key="0" type="xint" value="-12566464"/>
+                </config>
+            </config>
+        </config>
         <config key="meta_data"/>
     </config>
     <config key="column_spec_1">
-        <entry key="column_name" type="xstring" value="n_trabajadores"/>
+        <entry key="column_name" type="xstring" value="ganancia_final"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -54,7 +86,7 @@
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="0.8544021925316899"/>
+                    <entry key="DoubleCell" type="xdouble" value="608026.2691889541"/>
                 </config>
             </config>
         </config>

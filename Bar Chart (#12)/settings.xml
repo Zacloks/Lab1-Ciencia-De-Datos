@@ -63,7 +63,7 @@
         <entry key="chartType" type="xstring" value="GROUPED"/>
         <entry key="barGroups" type="xstring" value="DIMENSIONS"/>
         <entry key="showLegend" type="xboolean" value="true"/>
-        <entry key="showValues" type="xboolean" value="false"/>
+        <entry key="showValues" type="xboolean" value="true"/>
         <entry key="allowImageDownload" type="xboolean" value="true"/>
         <entry key="showTooltip" type="xboolean" value="true"/>
         <entry key="selectionMode" type="xstring" value="EDIT"/>
@@ -158,6 +158,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="ca5af0de-0cb1-4b73-aa8c-1b536bc13e2d"/>
+        <entry key="file_store_id" type="xstring" value="25050f7f-0025-475b-9627-cd2efb428edd"/>
     </config>
 </config>

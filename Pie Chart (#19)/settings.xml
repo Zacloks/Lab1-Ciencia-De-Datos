@@ -22,10 +22,10 @@
         <entry key="pieSize" type="xint" value="50"/>
         <entry key="donutChart" type="xboolean" value="false"/>
         <entry key="holeSize" type="xint" value="60"/>
-        <entry key="sortCategoriesBy" type="xstring" value="SIZE"/>
+        <entry key="sortCategoriesBy" type="xstring" value="LABEL"/>
         <entry key="showLabels" type="xboolean" value="true"/>
         <entry key="labelContent" type="xstring" value="BOTH"/>
-        <entry key="labelValueFormat" type="xstring" value="ABS"/>
+        <entry key="labelValueFormat" type="xstring" value="PROP"/>
         <entry key="labelPosition" type="xstring" value="OUT"/>
         <entry key="showLegend" type="xboolean" value="true"/>
         <entry key="smallCategoriesLabel" type="xstring" value="Other"/>
@@ -99,6 +99,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="b6048774-2ca0-4991-bae1-cb3bc468129e"/>
+        <entry key="file_store_id" type="xstring" value="92ac0fb0-1af9-45a5-9da9-cb491d15db4d"/>
     </config>
 </config>

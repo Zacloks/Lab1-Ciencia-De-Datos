@@ -15,8 +15,8 @@
         <entry key="xAxisColumnV3" type="xstring" value="horas_semanales_negocio"/>
         <entry key="yAxisColumnV3" type="xstring" value="ganancia_final"/>
         <config key="colorColumnV2">
-            <entry key="regularChoice" type="xstring" isnull="true" value=""/>
-            <entry key="specialChoice_Internals" type="xstring" value="NONE"/>
+            <entry key="regularChoice" type="xstring" value="informalidad"/>
+            <entry key="specialChoice_Internals" type="xstring" isnull="true" value=""/>
         </config>
         <entry key="maxRows" type="xint" value="2500"/>
         <entry key="title" type="xstring" value="Horas trabajadas vs ganancia, según formalidad"/>
@@ -91,6 +91,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="f63abbd8-6b76-4c0a-8f1e-43436decdae6"/>
+        <entry key="file_store_id" type="xstring" value="ad9f4791-2ed3-481b-878c-456088508b49"/>
     </config>
 </config>
