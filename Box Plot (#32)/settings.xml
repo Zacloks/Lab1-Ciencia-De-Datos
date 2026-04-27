@@ -52,14 +52,14 @@
     </config>
     <config key="variables"/>
     <config key="view">
-        <entry key="title" type="xstring" value="Box Plot"/>
+        <entry key="title" type="xstring" value="Distribución de ganancia según formalidad - Mujeres"/>
         <entry key="axisExtentMethod" type="xstring" value="AUTO"/>
         <config key="manualAxisLimits">
             <entry key="min" type="xdouble" value="0.0"/>
             <entry key="max" type="xdouble" value="100.0"/>
         </config>
-        <entry key="xAxisLabel" type="xstring" value="Dimension"/>
-        <entry key="yAxisLabel" type="xstring" value="Value"/>
+        <entry key="xAxisLabel" type="xstring" value="Formalidad"/>
+        <entry key="yAxisLabel" type="xstring" value="Ganancia mensual (normalizada)"/>
         <entry key="showLegend" type="xboolean" value="true"/>
         <entry key="allowImageDownload" type="xboolean" value="true"/>
         <entry key="showTooltip" type="xboolean" value="true"/>
@@ -67,7 +67,11 @@
     </config>
     <config key="view_variables"/>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="CONFIGURED"/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <config key="nodecontainer_message">
+        <entry key="type" type="xstring" value="WARNING"/>
+        <entry key="message" type="xstring" value="All rows with a 'NA' in the condition column only contain missing or NaN values. This category is thus omitted."/>
+    </config>
     <entry key="factory" type="xstring" value="org.knime.base.views.node.boxplot.BoxPlotNodeFactory"/>
     <entry key="node-name" type="xstring" value="Box Plot"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Views"/>
@@ -84,11 +88,51 @@
         <config key="Output Image"/>
     </config>
     <entry key="name" type="xstring" value="Box Plot"/>
-    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports"/>
+    <config key="internalObjects">
+        <entry key="location" type="xstring" value="internalTables"/>
+        <config key="content">
+            <config key="object_0">
+                <entry key="index" type="xint" value="0"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_0"/>
+            </config>
+            <config key="object_1">
+                <entry key="index" type="xint" value="1"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_1"/>
+            </config>
+            <config key="object_2">
+                <entry key="index" type="xint" value="2"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_2"/>
+            </config>
+            <config key="object_3">
+                <entry key="index" type="xint" value="3"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_3"/>
+            </config>
+            <config key="object_4">
+                <entry key="index" type="xint" value="4"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_4"/>
+            </config>
+            <config key="object_5">
+                <entry key="index" type="xint" value="5"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_5"/>
+            </config>
+            <config key="object_6">
+                <entry key="index" type="xint" value="6"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_6"/>
+            </config>
+        </config>
+    </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="54370258-25da-47ff-bd74-e2314efb1ca7"/>
     </config>
 </config>

@@ -52,10 +52,10 @@
     <config key="view">
         <entry key="limitRows" type="xstring" value="AUTOMATIC"/>
         <entry key="maxRows" type="xint" value="100"/>
-        <entry key="title" type="xstring" value="Distribución de microemprendimientos por región"/>
-        <entry key="customCategoryAxisLabelV2" type="xstring" value="Regiones"/>
+        <entry key="title" type="xstring" value="Ganancia promedio por región"/>
+        <entry key="customCategoryAxisLabelV2" type="xstring" value="Región"/>
         <entry key="customCategoryAxisLabelV2_is_present" type="xboolean" value="true"/>
-        <entry key="customFrequencyAxisLabelV2" type="xstring" value="Cantidad Respuestas"/>
+        <entry key="customFrequencyAxisLabelV2" type="xstring" value="Ganancia promedio"/>
         <entry key="customFrequencyAxisLabelV2_is_present" type="xboolean" value="true"/>
         <entry key="axisExtentMethod" type="xstring" value="AUTO"/>
         <config key="manualAxisLimits">
@@ -206,6 +206,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="0a2d2aab-6d7a-4542-a842-787e2a439727"/>
+        <entry key="file_store_id" type="xstring" value="9e81eddf-c2ed-4002-8a98-8064d5191035"/>
     </config>
 </config>

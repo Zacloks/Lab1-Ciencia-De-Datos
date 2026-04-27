@@ -52,11 +52,11 @@
     <config key="view">
         <entry key="limitRows" type="xstring" value="AUTOMATIC"/>
         <entry key="maxRows" type="xint" value="100"/>
-        <entry key="title" type="xstring" value="Promedio de trabajadores dependientes según formalidad y sexo"/>
-        <entry key="customCategoryAxisLabelV2" type="xstring" isnull="true" value=""/>
-        <entry key="customCategoryAxisLabelV2_is_present" type="xboolean" value="false"/>
-        <entry key="customFrequencyAxisLabelV2" type="xstring" isnull="true" value=""/>
-        <entry key="customFrequencyAxisLabelV2_is_present" type="xboolean" value="false"/>
+        <entry key="title" type="xstring" value="Ganancia promedio"/>
+        <entry key="customCategoryAxisLabelV2" type="xstring" value="Formalidad (0=Formal, 1=Informal)"/>
+        <entry key="customCategoryAxisLabelV2_is_present" type="xboolean" value="true"/>
+        <entry key="customFrequencyAxisLabelV2" type="xstring" value="Formalidad (0=Formal, 1=Informal)"/>
+        <entry key="customFrequencyAxisLabelV2_is_present" type="xboolean" value="true"/>
         <entry key="axisExtentMethod" type="xstring" value="AUTO"/>
         <config key="manualAxisLimits">
             <entry key="min" type="xdouble" value="0.0"/>
@@ -132,15 +132,10 @@
                 <entry key="type" type="xstring" value="table"/>
                 <entry key="table_dir_location" type="xstring" value="object_3"/>
             </config>
-            <config key="object_4">
-                <entry key="index" type="xint" value="4"/>
-                <entry key="type" type="xstring" value="table"/>
-                <entry key="table_dir_location" type="xstring" value="object_4"/>
-            </config>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="0f480960-1f72-4f60-9782-b3c7c8bb2d08"/>
+        <entry key="file_store_id" type="xstring" value="0a0e7dca-82df-4630-b53b-092f96c7a95d"/>
     </config>
 </config>

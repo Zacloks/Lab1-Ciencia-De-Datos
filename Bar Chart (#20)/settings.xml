@@ -52,10 +52,10 @@
     <config key="view">
         <entry key="limitRows" type="xstring" value="AUTOMATIC"/>
         <entry key="maxRows" type="xint" value="100"/>
-        <entry key="title" type="xstring" value="Lugar de Trabajo"/>
-        <entry key="customCategoryAxisLabelV2" type="xstring" value=""/>
+        <entry key="title" type="xstring" value="Gasto promedio según lugar de trabajo"/>
+        <entry key="customCategoryAxisLabelV2" type="xstring" value="Lugar de trabajo"/>
         <entry key="customCategoryAxisLabelV2_is_present" type="xboolean" value="true"/>
-        <entry key="customFrequencyAxisLabelV2" type="xstring" value="Cantidad Respuestas"/>
+        <entry key="customFrequencyAxisLabelV2" type="xstring" value="Gasto promedio"/>
         <entry key="customFrequencyAxisLabelV2_is_present" type="xboolean" value="true"/>
         <entry key="axisExtentMethod" type="xstring" value="AUTO"/>
         <config key="manualAxisLimits">
@@ -167,15 +167,10 @@
                 <entry key="type" type="xstring" value="table"/>
                 <entry key="table_dir_location" type="xstring" value="object_10"/>
             </config>
-            <config key="object_11">
-                <entry key="index" type="xint" value="11"/>
-                <entry key="type" type="xstring" value="table"/>
-                <entry key="table_dir_location" type="xstring" value="object_11"/>
-            </config>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="58053e3f-04da-4b0e-9ce0-867a77834834"/>
+        <entry key="file_store_id" type="xstring" value="c7a2d1ef-44bd-41f1-a4e3-077c2455574c"/>
     </config>
 </config>

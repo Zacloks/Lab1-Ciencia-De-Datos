@@ -12,14 +12,14 @@
         <entry key="height" type="xint" value="600"/>
     </config>
     <config key="view">
-        <entry key="xAxisColumnV3" type="xstring" value="horas_semanales_negocio"/>
+        <entry key="xAxisColumnV3" type="xstring" value="gasto_mensual"/>
         <entry key="yAxisColumnV3" type="xstring" value="ganancia_final"/>
         <config key="colorColumnV2">
             <entry key="regularChoice" type="xstring" value="informalidad"/>
             <entry key="specialChoice_Internals" type="xstring" isnull="true" value=""/>
         </config>
         <entry key="maxRows" type="xint" value="2500"/>
-        <entry key="title" type="xstring" value="Horas trabajadas vs ganancia, según formalidad"/>
+        <entry key="title" type="xstring" value="Gasto mensual vs ganancia mensual según formalidad"/>
         <entry key="axisExtentMethod" type="xstring" value="AUTO"/>
         <config key="manualAxisLimits">
             <entry key="xAxisManualMin" type="xdouble" value="0.0"/>
@@ -27,11 +27,11 @@
             <entry key="yAxisManualMin" type="xdouble" value="0.0"/>
             <entry key="yAxisManualMax" type="xdouble" value="100.0"/>
         </config>
-        <entry key="customXAxisLabelV2" type="xstring" isnull="true" value=""/>
-        <entry key="customXAxisLabelV2_is_present" type="xboolean" value="false"/>
+        <entry key="customXAxisLabelV2" type="xstring" value="Gasto mensual (normalizado)"/>
+        <entry key="customXAxisLabelV2_is_present" type="xboolean" value="true"/>
         <entry key="xAxisScale" type="xstring" value="VALUE"/>
-        <entry key="customYAxisLabelV2" type="xstring" isnull="true" value=""/>
-        <entry key="customYAxisLabelV2_is_present" type="xboolean" value="false"/>
+        <entry key="customYAxisLabelV2" type="xstring" value="Ganancia mensual (normalizada)"/>
+        <entry key="customYAxisLabelV2_is_present" type="xboolean" value="true"/>
         <entry key="yAxisScale" type="xstring" value="VALUE"/>
         <entry key="dataPointSize" type="xint" value="5"/>
         <entry key="showLegend" type="xboolean" value="true"/>
@@ -91,6 +91,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="ad9f4791-2ed3-481b-878c-456088508b49"/>
+        <entry key="file_store_id" type="xstring" value="f8d33aba-85f6-43cc-a53b-b37f85d5f22a"/>
     </config>
 </config>

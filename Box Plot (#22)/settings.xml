@@ -52,14 +52,14 @@
     </config>
     <config key="variables"/>
     <config key="view">
-        <entry key="title" type="xstring" value="Box Plot"/>
+        <entry key="title" type="xstring" value="Distribución de ganancia por perfil de género y formalidad"/>
         <entry key="axisExtentMethod" type="xstring" value="AUTO"/>
         <config key="manualAxisLimits">
             <entry key="min" type="xdouble" value="0.0"/>
             <entry key="max" type="xdouble" value="100.0"/>
         </config>
-        <entry key="xAxisLabel" type="xstring" value="Dimension"/>
-        <entry key="yAxisLabel" type="xstring" value="Value"/>
+        <entry key="xAxisLabel" type="xstring" value="Perfil"/>
+        <entry key="yAxisLabel" type="xstring" value="Ganancia mensual (normalizada)"/>
         <entry key="showLegend" type="xboolean" value="true"/>
         <entry key="allowImageDownload" type="xboolean" value="true"/>
         <entry key="showTooltip" type="xboolean" value="true"/>
@@ -160,20 +160,10 @@
                 <entry key="type" type="xstring" value="table"/>
                 <entry key="table_dir_location" type="xstring" value="object_10"/>
             </config>
-            <config key="object_11">
-                <entry key="index" type="xint" value="11"/>
-                <entry key="type" type="xstring" value="table"/>
-                <entry key="table_dir_location" type="xstring" value="object_11"/>
-            </config>
-            <config key="object_12">
-                <entry key="index" type="xint" value="12"/>
-                <entry key="type" type="xstring" value="table"/>
-                <entry key="table_dir_location" type="xstring" value="object_12"/>
-            </config>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="de979b87-ed77-4699-a007-e36e8472e2c0"/>
+        <entry key="file_store_id" type="xstring" value="2380f27b-7223-467b-9646-18ed00efbe1e"/>
     </config>
 </config>

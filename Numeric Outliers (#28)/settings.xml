@@ -9,25 +9,25 @@
         <config key="outlier-list">
             <entry key="filter-type" type="xstring" value="STANDARD"/>
             <config key="included_names">
-                <entry key="array-size" type="xint" value="12"/>
+                <entry key="array-size" type="xint" value="2"/>
+                <entry key="0" type="xstring" value="gasto_mensual"/>
+                <entry key="1" type="xstring" value="ganancia_final"/>
+            </config>
+            <config key="excluded_names">
+                <entry key="array-size" type="xint" value="11"/>
                 <entry key="0" type="xstring" value="id"/>
                 <entry key="1" type="xstring" value="region"/>
                 <entry key="2" type="xstring" value="sexo"/>
                 <entry key="3" type="xstring" value="tramo_etario"/>
                 <entry key="4" type="xstring" value="proveedor"/>
                 <entry key="5" type="xstring" value="horas_semanales_negocio"/>
-                <entry key="6" type="xstring" value="gasto_mensual"/>
-                <entry key="7" type="xstring" value="nivel_educacional"/>
-                <entry key="8" type="xstring" value="total_trabajadores"/>
-                <entry key="9" type="xstring" value="n_trabajadores"/>
-                <entry key="10" type="xstring" value="sueldos"/>
-                <entry key="11" type="xstring" value="horas"/>
+                <entry key="6" type="xstring" value="nivel_educacional"/>
+                <entry key="7" type="xstring" value="total_trabajadores"/>
+                <entry key="8" type="xstring" value="n_trabajadores"/>
+                <entry key="9" type="xstring" value="sueldos"/>
+                <entry key="10" type="xstring" value="horas"/>
             </config>
-            <config key="excluded_names">
-                <entry key="array-size" type="xint" value="1"/>
-                <entry key="0" type="xstring" value="ganancia_final"/>
-            </config>
-            <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+            <entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
             <config key="name_pattern">
                 <entry key="pattern" type="xstring" value=""/>
                 <entry key="caseSensitive" type="xboolean" value="true"/>
@@ -107,21 +107,21 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 5133, Cols: 18"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 5575, Cols: 18"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
         <config key="port_2">
             <entry key="index" type="xint" value="2"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 12, Cols: 5"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 2, Cols: 5"/>
             <entry key="port_dir_location" type="xstring" value="port_2"/>
         </config>
         <config key="port_3">
             <entry key="index" type="xint" value="3"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.base.algorithms.outlier.NumericOutliersPortObjectSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.base.algorithms.outlier.NumericOutliersPortObject"/>
-            <entry key="port_object_summary" type="xstring" value="Outlier treatment for columns: &quot;id&quot;, &quot;region&quot;, &quot;sexo&quot;,  ... &lt;9 more&gt;"/>
+            <entry key="port_object_summary" type="xstring" value="Outlier treatment for columns: &quot;gasto_mensual&quot;, &quot;ganancia_final&quot;"/>
             <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
             <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
             <entry key="port_dir_location" type="xstring" value="port_3"/>
@@ -129,6 +129,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="24d55ef0-04a5-4b59-8d71-ff9b2ec44132"/>
+        <entry key="file_store_id" type="xstring" value="0cf6953b-1abb-4852-a749-7205692d8284"/>
     </config>
 </config>

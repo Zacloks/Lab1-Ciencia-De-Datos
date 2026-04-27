@@ -39,10 +39,10 @@
     <config key="view">
         <entry key="limitRows" type="xstring" value="AUTOMATIC"/>
         <entry key="maxRows" type="xint" value="100"/>
-        <entry key="title" type="xstring" value="Nivel educacional"/>
-        <entry key="customCategoryAxisLabelV2" type="xstring" value="Nivel Educacional"/>
+        <entry key="title" type="xstring" value="Distribución por nivel educacional"/>
+        <entry key="customCategoryAxisLabelV2" type="xstring" value="Nivel educacional"/>
         <entry key="customCategoryAxisLabelV2_is_present" type="xboolean" value="true"/>
-        <entry key="customFrequencyAxisLabelV2" type="xstring" value="Cantidad Respuestas"/>
+        <entry key="customFrequencyAxisLabelV2" type="xstring" value="N° microemprendedores"/>
         <entry key="customFrequencyAxisLabelV2_is_present" type="xboolean" value="true"/>
         <entry key="axisExtentMethod" type="xstring" value="AUTO"/>
         <config key="manualAxisLimits">
@@ -143,6 +143,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="bcfbcb24-d3b3-4c49-a8e3-914398c334a0"/>
+        <entry key="file_store_id" type="xstring" value="e2d8a15f-31c8-47b3-a32b-8b7cda15829f"/>
     </config>
 </config>

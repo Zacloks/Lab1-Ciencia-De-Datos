@@ -15,25 +15,25 @@
             </config>
             <config key="manualFilter">
                 <config key="manuallySelected">
-                    <entry key="array-size" type="xint" value="8"/>
+                    <entry key="array-size" type="xint" value="7"/>
+                    <entry key="0" type="xstring" value="horas_semanales_negocio"/>
+                    <entry key="1" type="xstring" value="gasto_mensual"/>
+                    <entry key="2" type="xstring" value="ganancia_final"/>
+                    <entry key="3" type="xstring" value="total_trabajadores"/>
+                    <entry key="4" type="xstring" value="n_trabajadores"/>
+                    <entry key="5" type="xstring" value="sueldos"/>
+                    <entry key="6" type="xstring" value="horas"/>
+                </config>
+                <config key="manuallyDeselected">
+                    <entry key="array-size" type="xint" value="6"/>
                     <entry key="0" type="xstring" value="id"/>
                     <entry key="1" type="xstring" value="region"/>
                     <entry key="2" type="xstring" value="sexo"/>
                     <entry key="3" type="xstring" value="tramo_etario"/>
                     <entry key="4" type="xstring" value="proveedor"/>
                     <entry key="5" type="xstring" value="nivel_educacional"/>
-                    <entry key="6" type="xstring" value="n_trabajadores"/>
-                    <entry key="7" type="xstring" value="horas"/>
                 </config>
-                <config key="manuallyDeselected">
-                    <entry key="array-size" type="xint" value="5"/>
-                    <entry key="0" type="xstring" value="horas_semanales_negocio"/>
-                    <entry key="1" type="xstring" value="gasto_mensual"/>
-                    <entry key="2" type="xstring" value="ganancia_final"/>
-                    <entry key="3" type="xstring" value="total_trabajadores"/>
-                    <entry key="4" type="xstring" value="sueldos"/>
-                </config>
-                <entry key="includeUnknownColumns" type="xboolean" value="true"/>
+                <entry key="includeUnknownColumns" type="xboolean" value="false"/>
             </config>
             <config key="typeFilter">
                 <config key="selectedTypes">
@@ -67,14 +67,14 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 5133, Cols: 19"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 5575, Cols: 19"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
         <config key="port_2">
             <entry key="index" type="xint" value="2"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.base.data.normalize.NormalizerPortObject"/>
-            <entry key="port_object_summary" type="xstring" value="Min/Max (0.0, 1) normalization on 8 column(s)"/>
+            <entry key="port_object_summary" type="xstring" value="Min/Max (0.0, 1) normalization on 7 column(s)"/>
             <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
             <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
             <entry key="port_dir_location" type="xstring" value="port_2"/>
@@ -82,6 +82,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="85486c28-db16-401e-a917-ab5e29026897"/>
+        <entry key="file_store_id" type="xstring" value="7c956432-17c9-42e2-8247-27da98ff46da"/>
     </config>
 </config>
